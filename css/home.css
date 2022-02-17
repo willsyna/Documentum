@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap');
+
+body {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+li,
+a,
+button {
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.logo {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+header {
+    background: #24252A;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10vw;
+    align-items: center;
+    border-bottom: 1px solid #303030;
+    color: #fff;
+}
+
+header a {
+    color: #fff;
+}
+
+header nav {
+    color: #edf0f1;
+}
+
+main {
+    color: #24252A;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease-in;
+}
+
+.nav-links li a:hover {
+    color: #0088a9;
+}
+
+.button-header {
+    padding: 10px 25px;
+    background-color: rgba(0, 136, 169, 0.8);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.button-header:hover {
+    background-color: rgba(0, 136, 169, 1);
+}
+
+.main-text {
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+}
+
+.main-text h1 {
+    font-size: 60px;
+}
